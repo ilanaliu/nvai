@@ -95,6 +95,7 @@ else:
     result = (
         f"reference: '{reference}'\n"
         f"spoken: '{hypothesis}'\n"
+        f"Recording duration: {duration_seconds:.2f} seconds\n"
         f"Word Error Rate (WER): {word_error:.2%}\n"
         f"Character Error Rate (CER): {char_error:.2%}\n"
     )
